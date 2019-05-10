@@ -1,0 +1,3 @@
+ DEBUG mpjdaemon  - mpjHomeDir /users/dbc/soft/mpj-v0_35P02
+ DEBUG mpjdaemon  -  args[0] 10000
+ DEBUG mpjdaemon  - setting daemon port to10000

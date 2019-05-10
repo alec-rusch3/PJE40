@@ -1,0 +1,11 @@
+	mpjdaemon.java
+# NIO compenents were replaced with IO ones.
+# HandlerThread class was added. Most of the content were moved in this class.
+# Forwarding of standard output was reorganized. It uses output stream of current socket now.
+# KillHandler thread was added. It handles the "kill" command.
+
+
+	mpjrun.java
+#  NIO compenents were replaced with IO ones.
+#  InputHandlerThread class was added. It handles the input coming from mpjdaemon.
+#  mpjport allocation logic was changed. mpjrun requests a port base from mpjdaemon.

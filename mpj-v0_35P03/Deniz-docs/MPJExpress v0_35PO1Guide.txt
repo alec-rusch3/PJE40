@@ -1,0 +1,50 @@
+MPJ Express v0_35PO1
+-------------------- 
+I) Installation
+
+	1) Unpack mpj-v0_35PO1.zip to N:\mpj-v0_35PO1 directory.
+	2) Create a new folder in N: drive and name it “mpj-user”. 
+	  This will be the working directory for MPJ Express programs.
+
+
+//////////////////////////////////////////////////////////////////////////
+II) Running MPJ Express
+	
+	a) Running mpjdaemon
+		1) Open a command prompt.
+		2) Set the system variables.
+			i) Set the value of variable MPJ_HOME.
+
+			   > set MPJ_HOME=N:\mpj-v0_35PO1
+
+			ii) Set the value of variable PATH.
+
+			    > set PATH=C:\Program Files\Java\jdk1.6.0_29\bin;%MPJ_HOME%\bin;%PATH%
+
+		3) Run mpjdaemon :
+
+		   > mpjdaemon
+	
+	b) Running mpjrun                                                                                                                             
+		1) Open a command prompt.
+		2) Set the system variables.
+			i) Set the value of variable MPJ_HOME.
+
+		  	   > set MPJ_HOME=N:\mpj-v0_35PO1
+
+			ii) Set the value of variable PATH.
+
+		           > set PATH=C:\Program Files\Java\jdk1.6.0_29\bin;%MPJ_HOME%\bin;%PATH%
+
+		3) Write a machines file stating IP addresses of the nodes where you 
+		  wish to execute MPJ Express processes.Save this file as 'machines' 
+     		  in mpj-user directory.
+		4) Write an MPJ Express program and save in mpj-user directory.
+		5) Compile the program : 
+
+                   > javac -cp .;%MPJ_HOME%/lib/mpj.jar HelloWorld.java
+
+		6) Execute the program :
+
+		   > mpjrun -np 2 -dev niodev HelloWorld
+ 

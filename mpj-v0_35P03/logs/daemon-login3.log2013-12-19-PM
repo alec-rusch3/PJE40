@@ -1,0 +1,1581 @@
+ DEBUG mpjdaemon  - mpjHomeDir /users/dbc/soft/mpj-v0_35P02
+ DEBUG mpjdaemon  -  args[0] 10000
+ DEBUG mpjdaemon  - setting daemon port to10000
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20000@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20002@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - java.lang.IllegalThreadStateException: process hasn't exited
+	at java.lang.UNIXProcess.exitValue(UNIXProcess.java:217)
+	at runtime.daemon.HandlerThread.handleRequest(MPJDaemon.java:720)
+	at runtime.daemon.HandlerThread.run(MPJDaemon.java:435)
+
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=43031,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=43031,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20004@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20006@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - java.lang.IllegalThreadStateException: process hasn't exited
+	at java.lang.UNIXProcess.exitValue(UNIXProcess.java:217)
+	at runtime.daemon.HandlerThread.handleRequest(MPJDaemon.java:720)
+	at runtime.daemon.HandlerThread.run(MPJDaemon.java:435)
+
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=43311,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=43311,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - mpjHomeDir /users/dbc/soft/mpj-v0_35P02
+ DEBUG mpjdaemon  -  args[0] 10000
+ DEBUG mpjdaemon  - setting daemon port to10000
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20000@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20002@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=43594,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=43594,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - mpjHomeDir /users/dbc/soft/mpj-v0_35P02
+ DEBUG mpjdaemon  -  args[0] 10000
+ DEBUG mpjdaemon  - setting daemon port to10000
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20000@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20002@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=43877,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=43877,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>4
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <4>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20004@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20006@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20008@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20010@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 4
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=44159,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=44159,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>8
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <8>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20012@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20014@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20016@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20018@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20020@4>
+ DEBUG mpjdaemon  - rank_ 4
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 4
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 4
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20022@5>
+ DEBUG mpjdaemon  - rank_ 5
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 5
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 5
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20024@6>
+ DEBUG mpjdaemon  - rank_ 6
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 6
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 6
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20026@7>
+ DEBUG mpjdaemon  - rank_ 7
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 7
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 8
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 7
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=44728,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=44728,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>16
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <16>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20028@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20030@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20032@2>
+ DEBUG mpjdaemon  - rank_ 2
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 2
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20034@3>
+ DEBUG mpjdaemon  - rank_ 3
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 3
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20036@4>
+ DEBUG mpjdaemon  - rank_ 4
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 4
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 4
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20038@5>
+ DEBUG mpjdaemon  - rank_ 5
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 5
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 5
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20040@6>
+ DEBUG mpjdaemon  - rank_ 6
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 6
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 6
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20042@7>
+ DEBUG mpjdaemon  - rank_ 7
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 7
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 7
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20044@8>
+ DEBUG mpjdaemon  - rank_ 8
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 8
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 8
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20046@9>
+ DEBUG mpjdaemon  - rank_ 9
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 9
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 9
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20048@10>
+ DEBUG mpjdaemon  - rank_ 10
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 10
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 10
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20050@11>
+ DEBUG mpjdaemon  - rank_ 11
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 11
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 11
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20052@12>
+ DEBUG mpjdaemon  - rank_ 12
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 12
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 12
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20054@13>
+ DEBUG mpjdaemon  - rank_ 13
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 13
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 13
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20056@14>
+ DEBUG mpjdaemon  - rank_ 14
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 14
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 14
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20058@15>
+ DEBUG mpjdaemon  - rank_ 15
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 15
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 16
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 15
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=45893,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=45893,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
+ DEBUG mpjdaemon  - READ_EVENT (String)<url->
+ DEBUG mpjdaemon  - url-
+ DEBUG mpjdaemon  - URL Length -->24
+ DEBUG mpjdaemon  - URL:<http://10.30.0.23:15000/>
+ DEBUG mpjdaemon  - READ_EVENT (String)<num->
+ DEBUG mpjdaemon  - num-
+ DEBUG mpjdaemon  - should be 4, isit ? -->4
+ DEBUG mpjdaemon  - Num of processes ==>2
+ DEBUG mpjdaemon  - READ_EVENT (String)<arg->
+ DEBUG mpjdaemon  - arg-
+ DEBUG mpjdaemon  - argu len -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<wdr->
+ DEBUG mpjdaemon  - wdr-
+ DEBUG mpjdaemon  - wdr-Length -->25
+ DEBUG mpjdaemon  - wdir :</users/dbc/creche/mpjuser>
+ DEBUG mpjdaemon  - READ_EVENT (String)<cls->
+ DEBUG mpjdaemon  - cls-
+ DEBUG mpjdaemon  - className length -->10
+ DEBUG mpjdaemon  - className :<HelloWorld>
+ DEBUG mpjdaemon  - READ_EVENT (String)<mul->
+ DEBUG mpjdaemon  - mul-
+ DEBUG mpjdaemon  - URL Length -->31
+ DEBUG mpjdaemon  - mpjURL:<http://10.30.0.23:15001/mpj.jar>
+ DEBUG mpjdaemon  - READ_EVENT (String)<dev->
+ DEBUG mpjdaemon  - dev-
+ DEBUG mpjdaemon  - dev-Length -->6
+ DEBUG mpjdaemon  - Device Name :<niodev>
+ DEBUG mpjdaemon  - READ_EVENT (String)<ldr->
+ DEBUG mpjdaemon  - ldr-
+ DEBUG mpjdaemon  - ldr-Length -->15
+ DEBUG mpjdaemon  - ldr:<useRemoteLoader>
+ DEBUG mpjdaemon  - READ_EVENT (String)<app->
+ DEBUG mpjdaemon  - app-
+ DEBUG mpjdaemon  - Application args Length -->0
+ DEBUG mpjdaemon  - READ_EVENT (String)<*GO*>
+ DEBUG mpjdaemon  - GO
+ DEBUG mpjdaemon  - line read <# Number of Processes>
+ DEBUG mpjdaemon  - line read <2>
+ DEBUG mpjdaemon  - line read <# Protocol Switch Limit>
+ DEBUG mpjdaemon  - line read <131072>
+ DEBUG mpjdaemon  - line read <# Entry, HOST_NAME/IP@SERVERPORT@RANK>
+ DEBUG mpjdaemon  - line read <login3@20060@0>
+ DEBUG mpjdaemon  - rank_ 0
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 0
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - line read <login3@20062@1>
+ DEBUG mpjdaemon  - rank_ 1
+ DEBUG mpjdaemon  - jArgs[0]=-cp
+ DEBUG mpjdaemon  - jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - modified: jArgs[0]=-cp
+ DEBUG mpjdaemon  - modified: jArgs[1]=/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - 0: java
+ DEBUG mpjdaemon  - 1: -cp
+ DEBUG mpjdaemon  - 2: /users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar:/users/dbc/soft/mpj-v0_35P02/lib/loader1.jar:/users/dbc/soft/mpj-v0_35P02/lib/log4j-1.2.11.jar:/users/dbc/soft/mpj-v0_35P02/lib/wrapper.jar
+ DEBUG mpjdaemon  - 3: runtime.daemon.Wrapper
+ DEBUG mpjdaemon  - 4: http://10.30.0.23:15000/
+ DEBUG mpjdaemon  - 5: 2
+ DEBUG mpjdaemon  - 6: niodev
+ DEBUG mpjdaemon  - 7: 1
+ DEBUG mpjdaemon  - 8: useRemoteLoader
+ DEBUG mpjdaemon  - 9: http://10.30.0.23:15001/mpj.jar
+ DEBUG mpjdaemon  - 10: HelloWorld
+ DEBUG mpjdaemon  - starting the process 
+ DEBUG mpjdaemon  - started the process 
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - outputting ...
+ DEBUG mpjdaemon  - Stopping the output
+ DEBUG mpjdaemon  - Checking whether peerChannel is closed or what ?Socket[addr=/10.30.0.23,port=55663,localport=10000]
+ DEBUG mpjdaemon  - Closing it ...Socket[addr=/10.30.0.23,port=55663,localport=10000]
+ DEBUG mpjdaemon  - Was already closed, or i closed it
+ DEBUG mpjdaemon  - 
+
+ ** .. execution ends .. ** 
+
+
