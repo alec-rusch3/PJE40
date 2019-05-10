@@ -11,6 +11,7 @@ the first ip is the machine the display will be on
 locate the mpj.bat file located in 825804\
 change the following line:
   cd /D E:\program\825804\build\classes
+
 to the directory program is saved in
 
 run the batch file, then enter mpjdaemon
